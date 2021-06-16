@@ -1,0 +1,260 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Universitas Gadjah Mada",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"UGM.png",
+      "gambar": "UGM.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Institut Teknologi Bandung",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"ITB.png",
+      "gambar": "ITB.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Institut Teknologi Sepuluh Nopember",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"ITS.png",
+      "gambar": "ITS.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Universitas Gadjah Mada",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"UGM.png",
+      "gambar": "UGM.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Institut Teknologi Bandung",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"ITB.png",
+      "gambar": "ITB.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Institut Teknologi Sepuluh Nopember",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"ITS.png",
+      "gambar": "ITS.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Universitas Indonesia",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"UI.png",
+      "gambar": "UI.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Institut Pertanian Bogor",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"IPB.png",
+      "gambar": "IPB.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Universitas Airlangga",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"Unair.png",
+      "gambar": "Unair.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Universitas Diponegoro",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"Undip.png",
+      "gambar": "Undip.jpg"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Universitas Jember",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"Unej.png",
+      "gambar": "Unej.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Universitas Brawijaya",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"Unibraw.png",
+      "gambar": "Unibraw.jpg"
+    },
+    {
+      "id": 10,
+      "kode": "K-09",
+      "nama": "Universitas Sebelas Maret",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"UNS.png",
+      "gambar": "UNS.jpg"
+    },
+    {
+      "id": 11,
+      "kode": "K-09",
+      "nama": "Universitas Padjadjaran",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"Unpad.png",
+      "gambar": "Unpad.jpg"
+    },
+    {
+      "id": 12,
+      "kode": "K-09",
+      "nama": "Universitas Hasanuddin",
+      "akreditasi": "A",
+      "is_ready": true,
+      "logo":"Unhas.png",
+      "gambar": "Unhas.jpg"
+    }
+  ],
+  "seminar": [
+    {
+      "id": 1,
+      "nama": "Sharing UI/UX",
+      "tipe": "Workshop",
+      "tanggal":"27 Februari 2020",
+      "via":"Zoom Meeting",
+      "is_ready": true,
+      "gambar": "seminar1.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "Introduction to UI and UX",
+      "tipe": "Webinar",
+      "tanggal":"20 Desember 2020",
+      "via":"Youtube",
+      "is_ready": true,
+      "gambar": "seminar2.jpg"
+    },
+    {
+      "id": 3,
+      "nama": "Paradigma Desain",
+      "tipe": "Webinar",
+      "tanggal":"14 Juni 2021",
+      "via":"Video Conference",
+      "is_ready": true,
+      "gambar": "seminar3.jpg"
+    }
+  ],
+  "seminarfull": [
+    {
+      "id": 1,
+      "nama": "Sharing UI/UX",
+      "tipe": "Workshop",
+      "tanggal":"27 Februari 2020",
+      "via":"Zoom Meeting",
+      "is_ready": true,
+      "gambar": "seminar1.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "Introduction to UI and UX",
+      "tipe": "Webinar",
+      "tanggal":"20 Desember 2020",
+      "via":"Youtube",
+      "is_ready": true,
+      "gambar": "seminar2.jpg"
+    },
+    {
+      "id": 3,
+      "nama": "Paradigma Desain",
+      "tipe": "Webinar",
+      "tanggal":"14 Juni 2021",
+      "via":"Video Conference",
+      "is_ready": true,
+      "gambar": "seminar3.jpg"
+    }
+    ,
+    {
+      "id": 4,
+      "nama": "Web Hosting",
+      "tipe": "Webinar",
+      "tanggal":"23 Juli 2021",
+      "via":"Video Conference",
+      "is_ready": true,
+      "gambar": "seminar4.jpg"
+    }
+    ,
+    {
+      "id": 5,
+      "nama": "Paradigma Front End",
+      "tipe": "Webinar",
+      "tanggal":"17 Agustus 2021",
+      "via":"Zoom Meeting",
+      "is_ready": true,
+      "gambar": "seminar5.jpg"
+    }
+    ,
+    {
+      "id": 6,
+      "nama": "Data SQL",
+      "tipe": "Workshop",
+      "tanggal":"2 Desember 2021",
+      "via":"Video Conference",
+      "is_ready": true,
+      "gambar": "seminar6.jpg"
+    }
+    ,
+    {
+      "id": 7,
+      "nama": "Bermain Logika",
+      "tipe": "Webinar",
+      "tanggal":"8 Januari 2021",
+      "via":"Zoom Meeting",
+      "is_ready": true,
+      "gambar": "seminar7.jpg"
+    }
+    ,
+    {
+      "id": 8,
+      "nama": "Mengenal Vue Js",
+      "tipe": "Webinar",
+      "tanggal":"29 Oktober 2021",
+      "via":"Video Conference",
+      "is_ready": true,
+      "gambar": "seminar8.jpg"
+    }
+    ,
+    {
+      "id": 9,
+      "nama": "Web Expert",
+      "tipe": "Workshop",
+      "tanggal":"20 Maret 2021",
+      "via":"Yotube",
+      "is_ready": true,
+      "gambar": "seminar9.jpeg"
+    }
+  ]
+  
+}

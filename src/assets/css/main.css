@@ -1,0 +1,306 @@
+/* All Page */
+#app {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Home */
+.title_text {
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #143b81;
+}
+
+.breadcrumb-item.active {
+    font-weight: bold;
+    color: black;
+}
+
+
+.img-fluid {
+    border-radius: 15px;
+}
+
+/* Navbar */
+.nav {
+    background: rgb(255, 255, 255);
+    padding: 0.2vh;
+}
+
+.router-link-exact-active {
+    font-weight: bold;
+}
+
+.kiri {
+    text-decoration: none;
+    padding-right: 1em;
+    padding-left: 1em;
+    position: relative;
+    transition: all ease-in-out 250ms;
+}
+
+.kiri::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 0.4em;
+    width: 0%;
+    background-color: #143b81;
+    bottom: -1em;
+    transition: all ease-in-out 250ms;
+}
+
+.kiri:hover::after {
+    width: 85%;
+}
+
+.kiri:hover {
+    color: #143b81;
+}
+
+.kanan {
+    font-size: 1.2vw;
+}
+
+.daftar {
+    background: #ffffff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 1px solid #143b81;
+}
+
+.daftar:hover{
+    background: #143b81;
+}
+/* End Navbar */
+
+/* Hero */
+.btn-success {
+    background-color: #ffffff;
+    border: 1px solid #143b81;
+}
+.hero {
+    padding-top: 60px;
+}
+
+.tombol{
+    background-color: #ffffff;
+    border: 1px solid #143b81;
+}
+
+.title_hero{
+    color: #143b81;
+}
+/* End Hero */
+
+
+/* Card Product */
+.card-product {
+    border-radius: 15px;
+}
+
+.card-img-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card-logo {
+    display: block;
+    border: 8px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+    object-fit: cover;
+    top: -60px;
+    left: 110px;
+    margin-bottom: -50px;
+}
+/* End CardProduct */
+
+/* Lokasi */
+.lokasi1 {
+    border: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.lokasi2 {
+    border: none;
+    padding: 20px;
+}
+/* End Lokasi */
+
+/* Fitur */
+.fitur_home{
+    background: #f0f4fb;
+}
+.fitur {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+
+.fitur h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #111;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fitur .box_card {
+    justify-content: center;
+    border: none;
+    box-shadow: 5px 5px #e3e3e3;
+    width: 21vw;
+    height: 13vw;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.box_card img {
+    width: 180px;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.fitur .box .card_title {
+    display: flex;
+    justify-content: center;
+    margin-top: -27px;
+}
+/* End Fitur */
+
+/* Lowongan */
+.lowongan_home{
+    padding-bottom: 10px;
+}
+
+/* Seminar */
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+/* Artikel */
+.subtitle_artikel{
+    display: flex;
+    justify-content: center;
+}
+.artikel{
+    display: flex;
+    justify-content: center;
+}
+
+.img_slide{
+    height: 480px;
+    width: 1024px;
+}
+
+.badge_slide{
+    width: 15vh;
+    height: 5vh;
+    font-size: 20px;
+}
+
+.title_slide{
+    font-size: 35px;
+    text-shadow: rgb(0, 0, 0);
+}
+
+.desc_slide{
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 1.5px 1.5px #ffffff;
+}
+/* End Artikel */
+
+/* Partner */
+.deck-img {
+    border: none;
+    width: 15vw;
+    padding: 10px;
+}
+/* End Partner */
+
+/* Footer */
+.footer {
+    background-color: #143b81;
+    padding: 3px;
+    color: #ffffff;
+}
+
+.footer_kam p{
+    color: rgb(255, 255, 255);
+}
+
+.footer_per {
+    margin-top: 10vh;
+    padding-left: 10vh;
+}
+
+.footer_per p {
+    color: rgb(255, 255, 255);
+}
+
+.footer_fit {
+    margin-top: 10vh;
+    padding-left: 10vh;
+}
+
+.footer_fit p {
+    color: rgb(255, 255, 255);
+}
+
+.footer_lain {
+    margin-top: 10vh;
+    padding-left: 10vh;
+}
+
+.footer_lain p {
+    color: rgb(255, 255, 255);
+}
+
+.copyright {
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    vertical-align: bottom;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transition: opacity 150ms linear;
+    user-select: none;
+}
+
+img::hover {
+    opacity: 0.5;
+}
+
+.card-carousel--card--footer {
+    border-top: 0;
+    padding: 7px 15px;
+}
+
+p {
+    padding: 3px 0;
+    margin: 0;
+    margin-bottom: 2px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #2c3e50;
+    user-select: none;
+}
